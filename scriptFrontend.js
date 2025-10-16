@@ -2,7 +2,7 @@
 //==========================IMPORTAR ARCHIVO DE PETICIONES================
 import { fetchData } from "./peticionServer.js";
 //================================================================
-const HOST_API = "http://localhost:3000";
+const HOST_API = "https://jt04dsxs-3000.use2.devtunnels.ms/";
 document.addEventListener("DOMContentLoaded", async () => {
 
   // ====================== PEDIR DATOS  ======================
@@ -597,3 +597,4 @@ document.addEventListener("DOMContentLoaded", async () => {
   
 
 }); // DOMContentLoaded end 
+
