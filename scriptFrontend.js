@@ -1,6 +1,6 @@
 // ===================================================================
 //==========================IMPORTAR ARCHIVO DE PETICIONES================
-import { fetchData } from "../peticionServer.js";
+import { fetchData } from "./peticionServer.js";
 //================================================================
 const HOST_API = "http://localhost:3000";
 document.addEventListener("DOMContentLoaded", async () => {
@@ -595,4 +595,5 @@ document.addEventListener("DOMContentLoaded", async () => {
   
 
   
+
 }); // DOMContentLoaded end 
